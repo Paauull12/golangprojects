@@ -1,0 +1,50 @@
+# Ignore Go binary files
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+*.a
+
+# Ignore build artifacts
+bin/
+build/
+dist/
+
+# Ignore Go module files
+go.sum
+
+# Ignore compiled objects and caches
+*.o
+*.obj
+*.pyc
+*.pyo
+*.pdb
+*.log
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.iml
+
+# Ignore dependency directories (if vendored)
+vendor/
+
+# Ignore Go test cache
+*.test
+
+# Ignore environment and configuration files
+.env
+config.yaml
+config.json
+
+# Ignore coverage and debug files
+*.cover
+*.cov
+debug/
+
+# Ignore temporary files
+*.swp
+*.swo
+.DS_Store
+.env
